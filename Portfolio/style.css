@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.sidebar{
+    
+    background-color: rgb(177, 173, 173);
+    width: 180px;
+    font-family: "Oswald", sans-serif;
+  transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 16px;
+    /* ye padiing pure ke liye hai */
+    padding: 29.5px 0;
+}
+.sidebar nav li a{
+   text-decoration: none;
+   color: rgb(5, 4, 4);
+   
+}
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+   
+}
+.container{
+    display: flex;
+}
+.intocontainer{
+    /* background-color: rgb(132, 9, 126); */
+    height:58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Source Code Pro", monospace;
+
+}
+.hello{
+    font-size: 45px;
+
+}
+.name{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+}
+.about{
+    font-size: 18px;
+
+}
+.moreabout{
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+}
+.buttons{
+    margin-top: 34px;
+    padding: 3px;
+}
+.btn{
+    font-size: 15px;
+    border-radius: 15px;
+    padding: 5px  10px;
+    font-weight: bold;
+    margin: 0 4px;
+     cursor: pointer;
+}
+.btn-sm{
+    font-size: 9px;
+    padding: 7px 13px;
+    margin: 2px 0;
+}
+ .btn:hover{
+    background-color: dodgerblue;
+    color: white;
+
+}
+.devpic img{
+    width: 270px;
+    height: 63vh;
+}
+
+/* contact from desing */
+.contactform{
+    padding: 0 20px;
+    padding-top: 100px;
+    font-family: "Oswald", sans-serif;
+    margin-left:  144px;
+}
+.contactform h1{
+    font-family: "Source Code Pro", monospace;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+
+}
+.contactform  form div{
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 300px;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+
+}
+#emailHelp{
+    font-size: 10px;
+    color: midnightblue;
+    margin: 0 3px;
+}
+#form-check{
+    flex-direction: row;
+
+}
+#form-check input{
+    width:10px;
+    margin:3px 0;
+}
+.form-check-label{
+    font-size: 12px;
+}
+
+/* blog item design */
+.blogcontainer{
+    margin: 30px; 
+}
+.blogitem {
+    font-size: 13px;
+    margin: 20px;
+    font-family: "Fira Sans", sans-serif;
+    
+}
+ h1{
+    font-family: "Fira Sans", sans-serif;
+    margin: --3px;
+    
+}
+ p{
+    font-family: "Source Code Pro", monospace;
+
+}
+.intro{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.intro h2{
+    font-family: "Fira Sans", sans-serif;
+    margin: 0 12px;
+
+}
+.intro p{
+    font-family: "Source Code Pro", monospace;
+    margin: 0 12px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+   
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 400;
+}
+.hundred{
+    width: 265px;
+    background-color: blueviolet;
+
+}
+.fifty{
+    width: 125px;
+    background-color: aqua;
+}
+.t5{
+    width: 75px;
+    background-color:yellow
+}
+@media (max-width: 1616px) {
+*{
+    /* background-color: red; */
+}
+/* .sidebar{
+    transform: translate(-443px,0px);
+    position: absolute;
+
+} */
+}
+
+/* hamburger file style */
+.ham{
+    width: 25px;
+    position:absolute;
+    top: 5px;
+    left: 10px;
+    cursor: pointer;
+}
+.cross{
+    width: 25px;
+    padding: 2px;
+    position: absolute;
+    margin-left: -28px;
+    cursor: pointer;
+}
+
+.sidebargo{
+    transform:  translate(-443px,0px);
+    position: absolute;
+
+}
